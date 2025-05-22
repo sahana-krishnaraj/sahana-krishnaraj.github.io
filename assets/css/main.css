@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #555;
+		color: #000000;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -145,8 +145,13 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2.25em;
+		font-size:8em;
 		line-height: 1.35em;
+		font-family: 'Italiana', serif;
+		text-transform: uppercase;
+		text-align: center;
+		color: rgb(0, 0, 0)
+
 	}
 
 	h2 {
@@ -162,6 +167,7 @@ input, select, textarea {
 	h4 {
 		font-size: 1.25em;
 		line-height: 1.5em;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 	}
 
 	h5 {
@@ -202,6 +208,8 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
 	}
+
+
 
 	code {
 		background: rgba(144, 144, 144, 0.075);
@@ -2822,7 +2830,7 @@ input, select, textarea {
 
 		.main.style2 {
 			background-color: #ffffff;
-			color: rgba(51, 51, 51, 0.75);
+			color: rgba(0, 0, 0, 0.75);
 			background-attachment: fixed,							fixed;
 
 			background-size: auto,							cover;
@@ -2835,16 +2843,12 @@ input, select, textarea {
 				border-bottom-color: rgba(255, 255, 255, 0.5);
 			}
 
-				.main.style2 a:hover {
-					color: #ffffff;
-				}
-
 			.main.style2 h1, .main.style2 h2, .main.style2 h3, .main.style2 h4, .main.style2 h5, .main.style2 h6, .main.style2 strong, .main.style2 b {
-				color: #252525;
+				color: #0c0808;
 			}
 
 			.main.style2 header p {
-				color: #383838;
+				color: #000000;
 			}
 
 			.main.style2 header.major:after {
@@ -2922,15 +2926,37 @@ input, select, textarea {
   margin-top: 0.5rem;
   margin-bottom: 0;
 }
+.centered-section h2 {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.tech-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  margin-top: 1em;
+}
+
+.tech-icons img {
+  height: 50px;
+  width: auto;
+  transition: transform 0.7s ease;
+}
+
+.tech-icons img:hover {
+  transform: scale(1.1);
+}
 
 /* Header */
 
 	#header {
 		padding: 9em 0 9em 0 ;
-		background-color: #4686a0;
+		background-color: #ffffff;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		/*background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2); */
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -2939,23 +2965,23 @@ input, select, textarea {
 	}
 
 		#header a {
-			border-bottom-color: rgba(255, 255, 255, 0.5);
+			border-bottom-color: rgba(0, 0, 0, 0.5);
 		}
 
 			#header a:hover {
 				color: #ffffff;
 			}
 
-		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #header strong, #header b {
-			color: #ffffff;
+		#header h2, #header h3, #header h4, #header h5, #header h6, #header strong, #header b {
+			color: #000000;
 		}
 
 		#header header p {
-			color: #ffffff;
+			color: #000000;
 		}
 
 		#header header.major:after {
-			background: #ffffff;
+			background: #000000;
 		}
 
 		#header input[type="submit"],
@@ -2963,8 +2989,8 @@ input, select, textarea {
 		#header input[type="button"],
 		#header button,
 		#header .button {
-			box-shadow: inset 0 0 0 1px #ffffff;
-			color: #ffffff !important;
+			box-shadow: inset 0 0 0 1px #ffffff; /*this is the outline of the box*/
+			color: #000000 !important;
 		}
 
 			#header input[type="submit"]:hover,
@@ -3114,10 +3140,11 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 6em 0 ;
-		background-color: #114f68;
-		color: rgba(255, 255, 255, 0.75);
+		background-color: #ffffff;
+		color: rgba(0, 0, 0, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #030c2b, #5288bb 50%, #100058 95%); 
+		/*background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #030c2b, #5288bb 50%, #100058 95%); 
+		*/
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
@@ -3132,7 +3159,7 @@ input, select, textarea {
 			}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
-			color: #ffffff;
+			color: #000000;
 		}
 
 		#footer header p {
@@ -3433,6 +3460,7 @@ input, select, textarea {
 
 	}
 
+	
 /* XSmall */
 
 	@media screen and (max-width: 480px) {

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Me | Sahana Krishnaraj </title>
+    <style>
+      .centered-section {
+  box-sizing: border-box;
+  padding: 0.05rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skill-group-container {
+  display: flex;
+  flex-wrap: nowrap;          /* All boxes on one line */
+  gap: 1rem;                  /* Space between boxes */
+  width: 100%;                /* Full container width */
+  max-width: 1200px;          /* Optional max-width */
+  margin: 0 auto;             /* Center container */
+  box-sizing: border-box;
+
+}
+
+.skill-group-box {
+  flex: 1 1 0;                /* Equal flex grow and shrink */
+
+  padding: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+}
+
+
+
+.section-description {
+  color: #666;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.tech-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.icon-with-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90px;
+}
+
+.icon-with-label img {
+  height: 40px;
+  margin-bottom: 0.5rem;
+}
+
+.icon-with-label p {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+@media (max-width: 700px) {
+  .skill-group-container {
+    flex-wrap: wrap;
+  }
+  .skill-group-box {
+    flex: 0 0 100%;
+    aspect-ratio: auto; /* allow height to adapt */
+    min-width: 0;
+  }
+}
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+<body class="is-preload">
+  <section id="header">
+				<div class="inner">
+					<!--<h1>Sahana Krishnaraj</h1>-->
+          <h1>About Me</h1>
+					<!--<h4>Welcome to my Website!</h4>-->
+					<ul class="actions special">
+            <li><a href="index.html" class="button scrolly">Home</a></li>
+            <li><a href="#two" class="button scrolly">About Me</a></li>
+						<li><a href="projects.html" class="button scrolly">Projects</a></li>
+						<!--<li><a href="#four" class="button scrolly">Contact Me</a></li>-->
+					</ul>
+				</div>
+			</section>
+
+ 		<!-- Two -->
+<section id="two" class="main style2">
+  <div class="container">
+    <!-- Centered heading -->
+    <div class="row gtr-150">
+      <div class="col-12">
+        <div class="centered-section">
+          <!--<h2>About Me</h2>-->
+        </div>
+      </div>
+    </div>
+
+    <!-- Text and photo side by side, always -->
+    <div class="row gtr-150" style="display: flex; flex-wrap: nowrap; align-items: flex-start;">
+      <div style="flex: 2; padding-right: 20px;">
+        <header class="major">
+          <p style="text-align: left;">
+            Hello! My name is Sahana Krishnaraj, and I’m a rising fourth-year student at the University of Virginia, majoring in Applied Statistics with a concentration in Data Science and a minor in General Business. I’m passionate about data science, especially creating engaging data visualizations and exploring machine learning. Recently, I’ve also developed an interest in Computer Vision through my previous summer internship.
+</p>
+<p style="text-align: left;">
+Beyond the technical world, I love films and music, and I enjoy applying my data science skills to uncover interesting patterns in these industries. I am excited to continue building personal projects on these topics!
+          </p>
+        </header>
+      </div>
+
+      <div style="flex: 1; display: flex; justify-content: center; align-items: start;">
+        <img src="images/cropped.png" alt="Photo of Sahana Krishnaraj" style="max-width: 100%; height: auto; border-radius: 0;">
+      </div>
+    </div>
+  </div>
+  </div>
+
+        <!-- Tech Skills Section -->
+
+<!-- Tech Skills Section -->
+<section class="centered-section">
+<div class = "skill-group-container">
+  <!-- Languages Box -->
+  <div class="skill-group-box">
+    <h2>Languages</h2>
+    <p class="section-description">Programming languages I use for analysis, modeling, and development.</p>
+    <div class="tech-icons">
+      <div class="icon-with-label">
+        <img src="images/java_logo.png" alt="Java">
+        <p>Java</p>
+      </div>
+      <div class="icon-with-label">
+        <img src="images/python_logo.png" alt="Python">
+        <p>Python</p>
+      </div>
+      <div class="icon-with-label">
+        <img src="images/R_logo.png" alt="R">
+        <p>R</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Packages Box -->
+  <div class="skill-group-box">
+    <h2>Packages</h2>
+    <p class="section-description">Libraries and frameworks I regularly work with.</p>
+    <div class="tech-icons">
+      <div class="icon-with-label">
+        <img src="images/tidyverse_logo.png" alt="Tidyverse">
+        <p>Tidyverse</p>
+      </div>
+      <div class="icon-with-label">
+        <img src="images/pandas_logo.png" alt="Pandas">
+        <p>Pandas</p>
+      </div>
+      <div class="icon-with-label">
+        <img src="images/ggplot_logo.png" alt="ggplot">
+        <p>ggplot</p>
+      </div>
+      <div class="icon-with-label">
+        <img src="images/numpy_logo.png" alt="Numpy">
+        <p>Numpy</p>
+      </div>
+      <div class="icon-with-label">
+        <img src="images/plotly_logo.png" alt="Plotly">
+        <p>Plotly</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Platforms Box -->
+  <div class="skill-group-box">
+    <h2>Platforms</h2>
+    <p class="section-description">Tools I use for data visualization and dashboarding.</p>
+    <div class="tech-icons">
+      <div class="icon-with-label">
+        <img src="images/tableau_logo.png" alt="Tableau">
+        <p>Tableau</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+<!-- Four -->
+ <!--
+			<section id="four" class="main style2 special">
+
+				<div class="container">
+					<header class="major">
+						<h2>Contact Me</h2>
+					</header>
+					<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/sahana-krishnaraj-8ab92a1b1/" class="icon brands fa-linkedin-in"><span class="label">Twitter</span></a></li>
+									<li><a href="https://github.com/sahana-krishnaraj" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									<li><a href="mailto:wzw9pn@virginia.edu" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</div>
+			</section>
+    -->
+<!-- Footer -->
+			<section id="footer">
+        <h4>Contact Me</h4>
+				<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/sahana-krishnaraj-8ab92a1b1/" class="icon brands fa-linkedin-in"><span class="label">Twitter</span></a></li>
+									<li><a href="https://github.com/sahana-krishnaraj" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									<li><a href="mailto:wzw9pn@virginia.edu" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				<ul class="copyright">
+					<li>&copy; 2025 Sahana Krishnaraj</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+      <script>
+      			window.addEventListener('load', function () {
+        		document.body.classList.remove('is-preload');
+      			});
+    		</script>
+</body>
+</html>
