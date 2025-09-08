@@ -2394,9 +2394,10 @@ input, select, textarea {
 .image.fit img {
   width: 100%;
   height: auto;
-  display: block;
+  display: inline-block;
   object-fit: co; /* Or 'contain', based on your preference */
   aspect-ratio: 4 / 3; /* Optional: Helps control height */
+  border: 3px solid rgba(180, 184, 182, 0.5); /* Optional: border */
   border-radius: 8px;  /* Optional: rounded corners */
 }
 
